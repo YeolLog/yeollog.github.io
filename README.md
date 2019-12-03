@@ -1,139 +1,143 @@
-# Prologue - Jekyll Theme
+# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/template-overviews/clean-blog-jekyll/) - Official Jekyll Version
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-theme-prologue.svg)](https://badge.fury.io/rb/jekyll-theme-prologue)
+[Clean Blog Jekyll](http://startbootstrap.com/template-overviews/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
 
-![Prologue Theme](assets/images/screenshot.png "Prologue Theme Screenshot")
+This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
 
-This is Prologue, a simple, single page responsive site template from [HTML5 UP](https://html5up.net/prologue), now available as a blog-aware Jekyll theme from [Chris Bobbe](https://chrisbobbe.github.io). It features a clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
+## Preview
 
-**Demo**: https://chrisbobbe.github.io/jekyll-theme-prologue/
+[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
 
-# Added Features
+**[View Live Preview](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)**
 
-* **Blogging and multi-page features you expect from Jekyll**
-* Compatible with GitHub Pages
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Build your homepage with **custom scrolly sections** in the _sections folder
- * Set a **cover photo** for any section (not just the first), with alt text for screen readers and SEO
-* Add your **social profiles** easily in `_config.yml`.
-* Automatic search engine optimization (SEO) **meta tags** based on info you provide in `_config.yml` and frontmatter
-* **Google Analytics** built-in; just put your [Tracking ID](https://support.google.com/analytics/answer/1008080?hl=en) in `_config.yml` as `google_analytics`
-* Custom **404 page** (called 404.html; to activate, move it to your project directory).
+## Installation & Setup
 
-# Installation
+### Using RubyGems:
 
-There are two ways to get started (choose one):
+When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
 
-1. **Install the [jekyll-theme-prologue gem](https://rubygems.org/gems/jekyll-theme-prologue).** Instructions are in the [Jekyll docs](https://jekyllrb.com/docs/themes/#installing-a-theme). After running `bundle install`, you can find the theme files by running `open $(bundle show jekyll-theme-prologue)`.  A sample working `_config.yml` file ships with the gem; if you want to activate it, move it to your project's root directory. It will do nothing until you move it there, replacing the default `_config.yml` file.
-2. **Fork or clone the [GitHub repository](https://github.com/chrisbobbe/jekyll-theme-prologue).** If you want to use [GitHub Pages](https://pages.github.com/), create a branch named `gh-pages`, and replace `theme: jekyll-theme-prologue` with `remote_theme: chrisbobbe/jekyll-theme-prologue` in the provided `_config.yml` ([GitHub Pages now supports open-source themes on GitHub](https://github.com/blog/2464-use-any-theme-with-github-pages)).
+1. (Optional) Create a new Jekyll site: `jekyll new my-site`
+2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
+3. Install the theme: `bundle install`
+4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
+5. Build your site: `bundle exec jekyll serve`
 
-Next, make sure that `url` and `base_url` are set for your own website in `_config.yml`. For local testing, make them both blank. Add a photo avatar to your project, then set `avatar: path/to/your/avatar.jpg` in _config.yml; for example, `avatar: assets/images/avatar.jpg` (48x48 pixels works best). Poke around the sample `_config.yml` file to see how you can add your social profiles.
+Assuming there are no errors and the site is building properly, follow these steps next:
 
-# Build your homepage
-
-1. **Your `_config.yml` file must include the following line or your homepage won't work**: `collections: [sections]`. This tells Jekyll to look in the _sections folder (which you will create) for your content and render it all on one page.
-
-2. **Create a `_sections` folder** in your project's root directory and start adding content to your homepage. Set a cover photo in any of the sections by adding `cover-photo: path/to/photo.jpg` and `cover-photo-alt: your alt text here` to the section's frontmatter. Sample content is provided in the [GitHub repository](https://github.com/chrisbobbe/jekyll-theme-prologue/tree/master/_sections).
-
-All new sections should be added as html or Markdown documents in the `_sections` folder. The following section variables can be set with [frontmatter](https://jekyllrb.com/docs/frontmatter/):
-- `title` (required)
-- `order` (required; orders the sequence of sections on the page. Example: `1`)
-- `cover-photo` (optional; sets a background image for the section. Example: `assets/images/banner.jpg`)
-- `cover-photo-alt` (required if using a cover photo. Describes the photo for screen readers and SEO; e.g. "Dome of Light art installation, Kaohsiung, Taiwan")
-- `icon` (optional; see [Font Awesome](https://fontawesome.com/icons) for icon codes. Example: `fa-github`)
-- `icon-style` (optional; "solid" is default, "regular" for outline style icons, or "brands" for logos)
-- `auto-header` (optional; "use-title" is default, "none" for no header, or custom header text)
-- `hide` (optional; if `true`, the section won't appear)
-
-# Start blogging!
-
-Jekyll has great resources to get you started writing blog posts. Check out [this Jekyll Docs page](https://jekyllrb.com/docs/posts/) first. When you've written a post or two, copy the following into a new file in your project directory called `blog.html`, and you'll see a link to your blog from the homepage:
-
+1. Create the following pages if they do not exist already (or change the extension of exisitig markdown files from `.md` to `.html`):
+   - `index.html` - set to `layout: home`
+   - `about.html` - set to `layout: page`
+   - `contact.html` - set to `layout: page`
+   - `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
+2. Configure the `index.html` front matter. Example:
 ```
 ---
-layout: blog
-title: My Blog
+layout: home
+background: '/PATH_TO_IMAGE'
 ---
 ```
-
--- and that's it!
-
-# Add a page
-
-To add a page, just make a new .html or .md file in your project directory. There's an example called `reading-list` [provided](https://github.com/chrisbobbe/jekyll-theme-prologue/blob/master/reading-list.md) with the GitHub repository. Add this frontmatter:
-
+3. Configure the `about.html`, `contact.html`, and `posts/index.html` front matter. Example:
 ```
 ---
-title: My New Page
 layout: page
+title: Page Title
+description: This is the page description.
+background: '/PATH_TO_IMAGE'
+---
+```
+4. For each post in the `_posts` directory, update the front matter. Example:
+```
+---
+layout: post
+title: "Post Title"
+subtitle: "This is the post subtitle."
+date: YYYY-MM-DD HH:MM:SS
+background: '/PATH_TO_IMAGE'
 ---
 ```
 
-You can also set these page variables in the frontmatter, if you want:
-- `subtitle`
-- `order` (orders links in the nav menu, e.g. `1`)
-- `icon` (optional; see [Font Awesome](https://fontawesome.com/icons) for icon codes. Example: `fa-github`)
-- `icon-style` (optional; "solid" is default, "regular" for outline style icons, or "brands" for logos)
-- `hide` (optional; if `true`, a link won't appear in the nav menu. All this does is remove the nav link; your page will still be served to anyone who has the URL.)
+For reference, look at the [demo repository](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) to see how the files are set up.
 
-**This same set of frontmatter variables (including `title`) can also be set in `index.md` and `blog.html`.** You may want to give them titles, or hide the homepage link with `hide: true` if the homepage is the only page.
-
-For advanced SEO, this theme also lets you add `permalink` (see [Jekyll Docs](https://jekyllrb.com/docs/permalinks/#where-to-configure-permalinks)), `robots` (string, e.g. "noindex, nofollow"), and `canonical` (boolean; true is default) to any page or post.
-
-# Contributing
-
-Please feel free to submit issues and feature requests!
-
-# Credits
-
-Thanks to @andrewbanchich for his many Jekyll adaptations of HTML5 UP's elegant themes, which helped and inspired me, and of course many thanks to HTML5 UP.
-
-Original README from HTML5 UP:
-
+5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
 ```
-Prologue by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-This is Prologue, a simple, single page responsive site template. It features a
-clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
-
-Demo content images* are courtesy of the ridiculously talented Felicia Simion. Check out
-more of her amazing work over at deviantART:
-
-http://ineedchemicalx.deviantart.com/
-
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Felicia's work without her explicit permission!)
-
-Demo banner images* courtesy of Unsplash, a radtastic collection of CC0 (public domain)
-images you can use for pretty much whatever.
-
-(* = Not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
-
-
-Credits:
-
-	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
-		background-size polyfill (github.com/louisremi)
-		Respond.js (j.mp/respondjs)
-		jquery.scrolly (@ajlkn)
-		jquery.scrollzer (@ajlkn)
-		Skel (skel.io)
+<form name="sentMessage" id="contactForm" novalidate>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Name</label>
+      <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Email Address</label>
+      <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group col-xs-12 floating-label-form-group controls">
+      <label>Phone Number</label>
+      <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Message</label>
+      <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <br>
+  <div id="success"></div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+  </div>
+</form>
 ```
+
+Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
+
+6. Build your site: `bundle exec jekyll serve`
+
+### Using Core Files
+
+When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
+
+1. [Download](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
+2. Update the following configuration settings in your `_config.yml` file:
+   - `baseurl`
+   - `url`
+   - `title`
+   - `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
+   - `description`
+   - `author`
+   - `twitter_username` (Optional)
+   - `facebook_username` (Optional)
+   - `github_username` (Optional)
+   - `linkedin_username` (Optional)
+3. Build your site: `bundle exec jekyll serve`
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/gh-pages/LICENSE) license.
