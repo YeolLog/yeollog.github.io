@@ -1,16 +1,14 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
+  - title: "Today"
+    url: /_post/Today
+  - title: "Network Programming"
+    url: /_post/Network_Programming
+  - title: "DataBase"
+    url: /_post/DataBase
+  - title: "Program Language"
+    url: /_post/Program_Language
+  - title: "Operating System"
+    url: /_post/Operating_System
+  - title: "About Me"
+    url: /_post/About_Me
