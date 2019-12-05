@@ -1,14 +1,14 @@
 # main links
 main:
   - title: "Today"
-    url: /_post/Today
+    url: /Today
   - title: "Network Programming"
-    url: /_post/Network_Programming
+    url: /Network_Programming
   - title: "DataBase"
-    url: /_post/DataBase
+    url: /DataBase
   - title: "Program Language"
-    url: /_post/Program_Language
+    url: /Program_Language
   - title: "Operating System"
-    url: /_post/Operating_System
+    url: /Operating_System
   - title: "About Me"
-    url: /_post/About_Me
+    url: /About_Me
