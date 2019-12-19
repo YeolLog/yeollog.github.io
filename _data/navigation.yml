@@ -1,14 +1,12 @@
 # main links
 main:
-  - title: "Today"
-    url: /Today
-  - title: "Network Programming"
-    url: /Network_Programming
-  - title: "DataBase"
-    url: /DataBase
-  - title: "Program Language"
-    url: /Program_Language
-  - title: "Operating System"
-    url: /Operating_System
-  - title: "About Me"
-    url: /About_Me
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
