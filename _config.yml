@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Su-yeol"
-  avatar           : "/assets/img/myphoto.jpg"
+  avatar           : "/assets/images/myphoto.jpg"
   bio              : "Su-yeol's Blog for Study"
   location         : "Korea"
   #email            : "migle.sy@gmail.com"
@@ -283,3 +283,14 @@ defaults:
       comments: true # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
