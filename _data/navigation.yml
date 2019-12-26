@@ -1,11 +1,9 @@
 # main links
 main:
-  - title: "Home"
-    url: https://yeollog.github.io/
-  - title: "Network Programing"
-    url: /categories/network-pg/
-  - title: "Operating System"
-    url: /categories/os/
+  - title: "블로그 방문하기"
+    url: https://devinlife.com/
+  - title: "윤동주"
+    url: /categories/윤동주/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
