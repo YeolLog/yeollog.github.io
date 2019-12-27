@@ -3,7 +3,7 @@ title: "Post by Study & Develop"
 permalink: /categories/study/
 layout: category
 author_profile: true
-taxonomy: study
+taxonomy: Study
 ---
 
 Study & Develop
