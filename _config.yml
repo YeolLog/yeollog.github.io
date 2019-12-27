@@ -106,7 +106,7 @@ analytics:
 # Site Author
 author:
   name             : "Su-yeol, Yu"
-  avatar           : 
+  avatar           : "/assets/images/sequence.jpg"
   bio              : "이제부터 시작하는 컴공대생"
   location         : "South Korea"
   email            :
