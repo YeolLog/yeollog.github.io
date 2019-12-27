@@ -4,7 +4,7 @@ excerpt: "2019년 겨울방학 계획"
 toc: true
 toc_sticky: true
 header:
-  teaser: "/assets/images/java의정석.jpg"
+  teaser: "/assets/images/java.jpg"
 
 categories:
   - Study
