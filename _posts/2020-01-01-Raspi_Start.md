@@ -19,13 +19,14 @@ last_modified_at: 2020-01-01T08:18:20
 스트레스 많이 받아가면서 헛짓거리도 많이 했던 것 같다.
 
 라즈베리파이3 b+ 모델을 사용하였다. OS부터 설치하고 연결 후 부팅해보았다.
-[라즈베리파이 부팅](https://yeollog.github.io/assets/images/200101_raspi/raspi1.jpg)
+![라즈베리파이 부팅](https://yeollog.github.io/assets/images/200101_raspi/raspi1.jpg "라즈베리파이 부팅"){: .align-center}
+
 
 실제 윈도우 포맷하듯이 하였고 윈도우와 다른 점이 있다면 라즈베리파이용 이미지파일은 플래싱을 한 즉시 이미 모두 설치되어 있다는 것이다.
 그래서 바로 세팅부터 하였다.  
 
 구글링을 하면서 세팅 방법에 대해서 많이 알았기에 자신 있게 하던 도중 시작부터 문제가 발생했다.
-[사이트연결문제]](https://yeollog.github.io/assets/images/200101_raspi/raspi2.jpg)
+![사이트연결문제](https://yeollog.github.io/assets/images/200101_raspi/raspi2.jpg "사이트연결문제"){: .align-center}
 
 와이파이 연결도 되어 있는데 apt-get 패키지를 얻기위한 사이트에 접속을 하지 못하고 있는 것이다.
 이 문제를 해결하기 위해서 역시 구글링을 한 결과 해당 사이트가 먹통이었기에 다른 사이트로 접속하여
@@ -45,7 +46,7 @@ sources.list 안에 기본적으로 적혀있는 사이트를 다른 ftp나 사�
 다른 와이파이를 설정한 후 패키지를 업데이트 및 업그레이드할 수 있었다.  
 그리고 vim을 설치하고자 하였으나...
 
-[패키지깨짐]](https://yeollog.github.io/assets/images/200101_raspi/raspi3.jpg)
+![패키지깨짐](https://yeollog.github.io/assets/images/200101_raspi/raspi3.jpg "패키지 깨짐"){: .align-center}
 
 이번에는 ~held broken packages 문제가 생겼다. 이 문제도 역시 많이 구글링을 해본 결과  
 <https://askubuntu.com/questions/78406/cannot-install-vim> 이 사이트에서 답을 찾았다.  
