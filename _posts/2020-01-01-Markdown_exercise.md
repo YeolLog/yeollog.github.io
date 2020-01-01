@@ -17,12 +17,12 @@ last_modified_at: 2020-01-01T08:17:20
 출처 : <https://devinlife.com/howto%20github%20pages/markdown-syntax/>  
   
 ## 1. 텍스트 줄 바꿈
- ---
+ 
  줄 바꿈을 하기 위해서는 라인 끝에 스페이스를 2번 표기  
  하면 된다.  
 
 ## 2. 강조 표현
- ---
+ 
  ```
 강조 표현의 종류는 여러 개가 있다.  
  첫 번째 : *sing asterisks*  
@@ -38,7 +38,7 @@ last_modified_at: 2020-01-01T08:17:20
  다섯 번째 : ~~cancel line~~  
 
 ## 3. 글머리 달기
- ---
+ 
  ```
  # H1  
  ## H2  
@@ -55,7 +55,7 @@ last_modified_at: 2020-01-01T08:17:20
 ###### H6 
 
 ## 4. 인용
- ---
+ 
  ```
  > Hello, Everyone!
  >> My name is su-yeol.
