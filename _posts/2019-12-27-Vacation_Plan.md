@@ -11,12 +11,15 @@ categories:
 tags:
   - Plan
 last_modified_at: 2019-12-27T08:15:59-16:10
+
 ---
 
 SLAB 연구실을 다니면서 그동안 제대로 하지 못했던 공부를 이제 제대로 시작하고자 한다.
 그리고 그 공부한 내용을 가지고 이번 방학 때 부터 YeolLog에 글을 올릴 것이다.
 이번 방학을 기점으로 좀 더 성장하기를 소망한다.
 그러기 위해 내가 정한 나의 계획이다.
+
+![Java](https://yeollog.github.io/assets/images/java.jpg "Java의 정석"){: .align-center}
 
 ## 1. Java의 정석 마스터
 
