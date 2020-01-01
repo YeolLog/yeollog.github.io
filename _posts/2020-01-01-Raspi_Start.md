@@ -70,7 +70,8 @@ set tabstop=4                     " tab을 4칸으로
 set ignorecase                    " 검색시 대소문자 구별하지않음
 set hlsearch                      " 검색시 하이라이트(색상 강조)
 set expandtab                     " tab 대신 띄어쓰기로
-set background=dark               " 검정배경을 사용할 때, (이 색상에 맞춰 문법 하이라이트 색상이 달라집니다.)
+set background=dark               " 검정배경을 사용할 때, 
+                                    (이 색상에 맞춰 문법 하이라이트 색상이 달라집니다.)
 set nocompatible                  " 방향키로 이동가능
 set fileencodings=utf-8,euc-kr    " 파일인코딩 형식 지정
 set bs=indent,eol,start           " backspace 키 사용 가능
