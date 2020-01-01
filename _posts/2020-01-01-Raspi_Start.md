@@ -4,7 +4,7 @@ excerpt: "Raspi Setting"
 toc: true
 toc_sticky: true
 header:
-  teaser: 
+  teaser: "/assets/images/200101_raspi/raspi_teaser.jpg"
 
 categories:
   - Study
@@ -13,6 +13,8 @@ tags:
 last_modified_at: 2020-01-01T08:18:20
 
 ---
+
+![라즈베리파이](https://yeollog.github.io/assets/images/200101_raspi/raspi_teaser.jpg "라즈베리파이"){: .align-center}
 
 처음으로 라즈베리파이를 만져보고 세팅해보았다.  
 임베디드 수업이 시간이 안맞아서 미처 들어보지를 못했던지라 처음부터 난관에 빠지기 일수였고 
