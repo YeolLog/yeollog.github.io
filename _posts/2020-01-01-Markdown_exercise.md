@@ -14,7 +14,7 @@ last_modified_at: 2020-01-01T08:17:20
 
 ---
 
-출처 : <https://devinlife.com/howto%20github%20pages/markdown-syntax/>  
+출처 : [devinlife 님 블로그](https://devinlife.com/howto%20github%20pages/markdown-syntax/)
   
 ## 1. 텍스트 줄 바꿈
  
@@ -109,16 +109,6 @@ last_modified_at: 2020-01-01T08:17:20
 
 ## 7. 코드 인용
  
- ```
- ```c
- int main() {
-   printf("Hello, World!");
-   return 0;
- }
- ```
- ```
- ```
-
  ```c
  int main() {
    printf("Hello, World!");
