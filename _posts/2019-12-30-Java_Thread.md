@@ -4,7 +4,7 @@ excerpt: "Java Thread"
 toc: true
 toc_sticky: true
 header:
-  teaser: "/assets/images/java.jpg"
+  teaser: "/assets/images/191230_java/thread_state.png"
 
 categories:
   - Study
@@ -45,6 +45,9 @@ last_modified_at: 2019-12-30T08:17:20
   2. 코딩이 난해해지므로 버그발생확률이 높아진다.
 
 ## 3. Thread의 생명 주기
+
+![스레드상태](https://yeollog.github.io/assets/images/191230_java/thread_state.png "스레드상태"){: .align-center}
+출처 : <https://coding-factory.tistory.com/279>
 
   1. Runnable (준비상태)
 
