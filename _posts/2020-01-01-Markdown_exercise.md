@@ -33,7 +33,7 @@ last_modified_at: 2020-01-01T08:17:20
  ```
  첫 번째 : *sing asterisks*  
  두 번째 : _single underscores_  
- 세 번째 : **double asterisks  
+ 세 번째 : **double asterisks**  
  네 번째 : __double underscores__  
  다섯 번째 : ~~cancel line~~  
 
