@@ -4,7 +4,7 @@ excerpt: "Markdown Exercise"
 toc: true
 toc_sticky: true
 header:
-  teaser: "/assets/images/markdown.png"
+  teaser: "/assets/images/markdown.jpg"
 
 categories:
   - Study
@@ -14,7 +14,7 @@ last_modified_at: 2020-01-01T08:17:20
 
 ---
 
-![마크다운](https://yeollog.github.io/assets/images/makrdown.png "마크다운"){: .align-center}
+![마크다운](https://yeollog.github.io/assets/images/makrdown.jpg "마크다운"){: .align-center}
 
 출처 : [devinlife 님 블로그](https://devinlife.com/howto%20github%20pages/markdown-syntax/)
   
