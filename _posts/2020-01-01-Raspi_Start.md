@@ -1,8 +1,8 @@
 ---
 title:  "[Raspberry] 라즈베리 파이 시작"
 excerpt: "Raspi Setting"
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
 header:
   teaser: "/assets/images/200101_raspi/raspi_teaser.jpg"
 
