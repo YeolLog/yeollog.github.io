@@ -27,7 +27,7 @@ last_modified_at: 2020-01-01T08:17:20
 강조 표현의 종류는 여러 개가 있다.  
  첫 번째 : *sing asterisks*  
  두 번째 : _single underscores_  
- 세 번째 : **double asterisks  
+ 세 번째 : **double asterisks**  
  네 번째 : __double underscores__  
  다섯 번째 : ~~cancel line~~  
  ```
@@ -47,12 +47,12 @@ last_modified_at: 2020-01-01T08:17:20
  ##### H5  
  ###### H6  
  ```
- # H1  
- ## H2  
- ### H3  
- #### H4  
- ##### H5  
- ###### H6 
+# H1  
+## H2  
+### H3  
+#### H4  
+##### H5  
+###### H6 
 
 ## 4. 인용
  ---
@@ -115,6 +115,7 @@ last_modified_at: 2020-01-01T08:17:20
    printf("Hello, World!");
    return 0;
  }
+ ```
  ```
  ```
 
