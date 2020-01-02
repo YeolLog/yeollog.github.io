@@ -1,5 +1,5 @@
 ---
-title:  "[Network] 네트워크 프로그래밍 기본 (소켓)"
+title:  "[Network] 네트워크 프로그래밍 기본 (서버 소켓)"
 excerpt: "Socket"
 toc: true
 toc_sticky: true
@@ -94,10 +94,9 @@ last_modified_at: 2020-01-01T08:20:20
 #include <arpa/inet.h>
 #include <sys/socket.h>
 
-void error_handling(char *message); // 에러 발생 시 호출
+void error_handling(char *message);   // 에러 발생 시 호출
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
   int svr_sock;
   int clt_sock;
 
@@ -106,7 +105,7 @@ int main(int argc, char *argv[])
 
   char message[] = "Hello World!";
 
-  if(argc != 2){
+  if(argc != 2) {
     printf("Usage : %s <PORT>\n", argv[0]);
     exit(1);
   }     // 서버 파일 실행 시 : ./<파일명> <포트번호>
@@ -139,7 +138,7 @@ int main(int argc, char *argv[])
   return 0;
 }
 
-void error_handling(char *message){
+void error_handling(char *message) {
   fputs(message, stderr);
   fputc('\n', stderr);
   exit(1);
